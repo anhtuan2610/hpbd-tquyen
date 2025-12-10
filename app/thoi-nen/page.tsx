@@ -157,7 +157,7 @@ export default function Page2() {
 
   const handleCakeSurfaceClick = (e: React.MouseEvent<HTMLDivElement>) => {
     // Giới hạn tối đa 24 nến
-    if (candles.length >= 24) {
+    if (candles.length >= 23) {
       return; // Không thêm nến nữa nếu đã đạt giới hạn
     }
 

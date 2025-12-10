@@ -20,7 +20,7 @@ const AgeNumberDisplay = memo(function AgeNumberDisplay({
         sparklesCount={4}
       >
         <NumberTicker
-          value={24}
+          value={23}
           startValue={0}
           className="text-5xl lg:text-7xl font-semibold tracking-tighter text-white px-1"
         />
@@ -32,4 +32,3 @@ const AgeNumberDisplay = memo(function AgeNumberDisplay({
 AgeNumberDisplay.displayName = "AgeNumberDisplay";
 
 export default AgeNumberDisplay;
-
