@@ -48,7 +48,7 @@ export default function Home() {
             <PowerOffSlide
               label="Đi thổi nến nào"
               onPowerOff={() => {}}
-              href="/tuancooking"
+              href="/thoi-nen"
               className=""
             />
           </div>
