@@ -18,6 +18,17 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Trần Thảo Quyên - 10/12",
   description: "Chúc mừng sinh nhật Quyên",
+  openGraph: {
+    title: "Trần Thảo Quyên - 10/12",
+    description: "Chúc mừng sinh nhật Quyên",
+    images: [], // Không có ảnh preview
+  },
+  twitter: {
+    card: "summary",
+    title: "Trần Thảo Quyên - 10/12",
+    description: "Chúc mừng sinh nhật Quyên",
+    images: [], // Không có ảnh preview
+  },
 };
 
 export default function RootLayout({
