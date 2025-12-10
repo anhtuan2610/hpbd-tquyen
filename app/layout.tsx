@@ -21,13 +21,20 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Trần Thảo Quyên - 10/12",
     description: "Chúc mừng sinh nhật Quyên",
-    images: [], // Không có ảnh preview
+    images: [
+      {
+        url: "/2.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Trần Thảo Quyên - 10/12",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Trần Thảo Quyên - 10/12",
     description: "Chúc mừng sinh nhật Quyên",
-    images: [], // Không có ảnh preview
+    images: ["/2.jpg"],
   },
 };
 
